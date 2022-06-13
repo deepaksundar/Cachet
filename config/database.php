@@ -85,6 +85,9 @@ return [
             'charset'  => 'utf8',
             'prefix'   => env('DB_PREFIX', null),
             'schema'   => env('DB_SCHEMA', 'public'),
+            'sslmode'  => 'prefer',
+            'sslcert'  => env('DB_SSLCERT', null),
+            'sslkey'   => env('DB_SSLKEY', null),
         ],
 
         'sqlsrv' => [
