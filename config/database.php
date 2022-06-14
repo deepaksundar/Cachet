@@ -88,6 +88,7 @@ return [
             'sslmode'  => env('DB_SSLMODE', null),
             'sslcert'  => env('DB_SSLCERT', null),
             'sslkey'   => env('DB_SSLKEY', null),
+            'sslrootcert' => env('DB_SSLROOTCERT', null),
         ],
 
         'sqlsrv' => [
